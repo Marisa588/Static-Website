@@ -7,51 +7,58 @@
     <link rel="stylesheet" href="static.css">
     <title>Stream TV and Movies Live and Online | Hulu</title>
 </head>
-<body>
-        <div class= "one"> 
+    <body>
+        <div class="container">
+            <div class="navbar">
             <nav>
                 <button type= "button" class="loginButton">LOG IN
                     <a href="https://www.hulu.com/welcome" target="_blank"></a>
                 </button>
-             </nav> 
-             </br>  
-            <h1>TRY UP TO ONE MONTH FREE</h1>    
-            <h2>hulu</h2>
-                <p style= "color: white">Watch thousands of shows and movies, with plans starting at $5.99/month.</p>
-                <p style="color:white;">HBO Max, SHOWTIME, CINEMAX, and STARZ available as add-ons.</p>
+            </nav>
+            </div>
+            <div class = "one" style="display: flexbox">
+                <h2 style="padding-top: 100px;">TRY UP TO ONE MONTH FREE</h2>
+                <img class= "huluLogo" src= "Asset/Hulu_Logo-01_newgreen.png"> 
+                <h1> Watch thousands of shows and movies, with plans starting at
+                    $5.99/month.</h1>
+                <p style="color:white;text-align:center;">HBO Max, SHOWTIME, CINEMAX, and STARZ available as add-ons.</p>
                 <button type="button" class="trialButton">START YOUR FREE TRIAL
-                <a href="https://signup.hulu.com/plans" target="_blank"></a>
-                </button>
-                <p style="color:white;">Free trial for new & eligible returning subscribers only</p>
-        </div>   
-        <div class="two">
-            <box>
-                <img src="Asset/bundle.png">
-            </box>
-            <box>
-                   <p id="one">BUNDLE WITH ANY HULU PLAN & SAVE</p> 
-                   <h3>Get Hulu, Disney+, and ESPN+ starting at $13.99/month</h3>
-            </box>
-            <box>
-                    <a href="https://www.hulu.com/disney-bundle-3" target="_blank"><button type="button" class="bundleButton">GET BUNDLE
-                    </button></a>
-                    <p id="two">
-                        <a href="https://www.hulu.com/terms/disney-bundle" target="_black">Terms apply</a>
-                    </p>
-            </box>
-        </div> 
-        <div class="three">
-            <p id="plans">
+                    <a href="https://signup.hulu.com/plans" target="_blank"></a>
+                    </button>
+                    <p style="color:#868D9B; font-size:10px;text-align:center;font-family:Arial, Helvetica, sans-serif;">Free trial for new & eligible returning subscribers only</p>
+            </div>
+        </div>
+        
+         <div class="two">
+            <div class= "bundlePlans">
+                <img src="Asset/bundle.png" style="width:300px">
+            </div>                
+            <div class= "bundle">
+                <span class= "allBundles">
+                    <p id="one">BUNDLE WITH ANY HULU PLAN & SAVE</p>
+                    <h3>Get Hulu, Disney+, and ESPN+ starting at $13.99/month</h3> 
+                    <a class= "details" href= "https://www.hulu.com/welcome#bundle_details" target="_blank">Details</a>
+                </span>
+            </div>
+            <div class= "terms">
+                <a href="https://www.hulu.com/disney-bundle-3" target="_blank"><button type="button" class="bundleButton">GET BUNDLE
+                </button></a><br>
+                <a class="apply" href="https://www.hulu.com/terms/disney-bundle" target="_black">Terms apply</a>
+            </div>
+        </div>  
+         <div class="three" style="padding:0px;margin:0px">
+             <p id="plans">
             INCLUDED IN ALL PLANS</p>
             <h4> All The TV You Love</h4>
-            <p id="stream">Stream full seasons of exclusive series, current-season episodes, hit movies, Hulu Originals, kids shows, and more.</p>
-            <img src="Asset/bobsburgers.jpg">
-            <img src="Asset/unitedstatesvsbillieholiday.jpg">
-            <img src="Asset/solaropposites.jpg">
-            <img src="Asset/cityonahill.jpg">
-            <p id="note">
-            Premium network add-ons available for an additional cost </p>
-                
-        </div>     
+            <p id="stream">Stream full seasons of exclusive series, current-season episodes, hit movies, Hulu Originals, kids shows, and more.</p> -->
+            <p class= "img"style="display:flex;flex-wrap:wrap;">
+                <img src="Asset/bobsburgers.jpg" style="padding-left:60px;width:260px">
+                <img src="Asset/unitedstatesvsbillieholiday.jpg" style="padding-left:15px; width:260px">
+                <img src="Asset/solaropposites.jpg" style="padding-left:20px;width:260px">
+                <img src="Asset/cityonahill.jpg" style="padding-left:20px;padding-right:60px;width:260px">
+            </p> 
+            <p id="note">Premium network add-ons available for an additional cost
+            </p>
+        </div> 
     </body>
 </html>

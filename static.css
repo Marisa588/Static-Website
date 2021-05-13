@@ -1,115 +1,154 @@
-.one {
-    background-image:url("./Asset/hulu.jpg");
-    background-blend-mode: darken;
-    background-size: cover;
-    background-position: top;
-    padding-bottom: 0px;
+body{
+    margin: 0px;
 }
+.navbar {
+    background-blend-mode: darken;
+}
+
+.container {
+    background-position: right;
+    background-size: cover;
+    background-image: url("./Asset/hulu.jpg");   
+    height: 500px;
+}
+
 .loginButton {
-    color: white;
+    float: right;
     background: none;
+    padding-top: 30px;
+    padding-right: 40px;
     font-weight: bold;
-    border: none; 
-    position: relative;
-    top: 40px; 
-    left: 1150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    border: none;
+}
+h2 {
+    color: #2DBD9D;
+    font-size: 13px;
+    padding-top: 190px;
+    margin: 0px;
+    text-align: center;
+}
+.huluLogo {
+    width:280px;
+    height:89.3px;
+    padding-left: 40%;
+    padding-top: 30px;
 }
 h1 {
-    color: seagreen;
-    outline: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 750px;
     text-align: center;
-    font-size: 15px;
-    font-weight: 700px;
-    letter-spacing: .5px;
-    line-height: -15px;
-    padding-top: 100px;
-    }
-h2 {
-    color: seagreen;
-    text-align: center;
-    font-size: 100px;
-    font-weight: 600px;
-    line-height: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-p {
-    text-align: center;
+    padding-left: 20%;
+    padding-bottom: 20px;
 }
 .trialButton {
-    position: relative;
-    left: 500px;
-    font-weight: bold;
-    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-family: arial;
+    padding: 20px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    border: none;
+    line-height: 14px;
 }
 .two {
-    background-image: linear-gradient(to right, #231437 0%, #2c385e 50%, #336e6b 100%);
-    background-size: cover;
-    height: 200px;
+    display: flex;
+    height: 170px;
+    background-image: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.3%, #08141F 100%);
 }
-.box {
-    float: center;
-    width: 33.3%;
-    padding: 50px;
+.bundlePlans {
+    display: inline-flexbox;
+    width: 350px;
+    padding-left: 60px;
+    padding-top: 45px;
 }
-img {
-    width: 300px;
-    position: relative;
-    top: 110px;
-    left: 30px;
+.bundle {
+    width: 600px;
 }
+.allBundles {
+    width: 400px;
+    text-align: left;
+}
+#one {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2DBD9D;
+    font-weight: bold;
+    height: 12px;
+    font-size: 15px;
+}
+
 h3 {
     color: white;
-    text-align: center;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+}
+.details {
+    color: white;
+}
+.terms {
+    display: inline-flexbox;
+    width: 200px;
+    
 }
 .bundleButton {
     background-color: transparent;
-    border: solid white;
+    border: solid white 2px;
     color: white;
-    position: relative;
-    left: 1000px;
-    top: -40px;
-    padding: 15px;
-}
-#one {
-    color: seagreen;
     font-weight: bold;
-    position: relative;
-
+    font-family: arial;
+    border-radius: 4px;
+    height: 50px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    width: 150px;
+    float: right;
 }
-#two {
-    font: white;
-    font-size: 12px;
-    position: relative;
-    left: 445px;
-    top: -50px;
-}
-a {
-    color: white;
+.apply {
+    color:white;
+    align-content: initial;
+    float: right;
 }
 .three {
-    background: black;
-    background-size: cover;
-    height: 800px;
+    background-color: black;
 }
 #plans {
-    color:seagreen;
-    font-weight: bold;
-    position: relative;
-    top: 30px;
+    margin-top: 0px;
+    color:#2DBD9D;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h4 {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    /* padding-top: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px; */
 }
 #stream {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 800px;
+    margin-left: 200px;
+    text-align: center;
+}  
 #note {
     color: white;
-    text-align: right;
+    padding-left: 900px;
+    font-size: 10px;
+    padding-bottom: 60px;
 }
